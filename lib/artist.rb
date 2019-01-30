@@ -18,7 +18,7 @@ def new_song(name, genre)
 end
 
 def songs
-  song.all.select do |playlist|
+  Song.all.select do |playlist|
     playlist.artist == self
 end
 end
