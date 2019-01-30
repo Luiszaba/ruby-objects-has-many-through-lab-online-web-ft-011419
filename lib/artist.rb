@@ -14,7 +14,7 @@ def self.all
   @@all
 end
 
-def new_song(name, genre)
+def new_song
   name = Song.new(name)
   genre = Genre.new(genre)
   @@all << self
