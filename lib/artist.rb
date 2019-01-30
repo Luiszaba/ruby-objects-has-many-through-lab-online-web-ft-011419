@@ -24,7 +24,7 @@ def songs
 end
 
 def genres
-  songs.collect {|playlist-g| playlist-g.genre}
+  songs.collect {|playlist_g| playlist_g.genre}
 end
 end
 
