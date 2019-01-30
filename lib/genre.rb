@@ -9,10 +9,6 @@ class Genre
     @all << self
   end
   
-  def self.new(name)
-    name = self.new
-  end
-  
   def self.all
     @all
   end
