@@ -10,7 +10,7 @@ class Genre
   end
   
   def self.new(name)
-    name = Genre.new(name)
+    name = self.new
   end
   
   def self.all
