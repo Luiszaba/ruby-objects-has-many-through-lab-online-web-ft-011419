@@ -21,5 +21,11 @@ def songs
   Song.all.select do |playlist|
     playlist.artist == self
 end
+
+def genres
+  Genre.all.select do |genres|
+    genres.song == self
+    genres
+end
 end
 end
