@@ -14,8 +14,8 @@ def self.all
 end
 
 def new_song
-  Song.new(name)
-  Genre.new(genre)
+  Song.new(name,self,genre)
+
 end
 
 def songs
