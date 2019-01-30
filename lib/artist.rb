@@ -19,6 +19,6 @@ end
 
 def songs
   song.all.select do |playlist|
-    
+    playlist.artist == playlist
 end
 end
