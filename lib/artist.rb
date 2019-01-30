@@ -15,8 +15,8 @@ def self.all
 end
 
 def new_song(name, genre)
-  name = Song.new(name)
-  genre = Genre.new(genre)
+  Song.new = name
+  Genre.new= genre
 end
 
 def songs
