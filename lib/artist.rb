@@ -18,6 +18,7 @@ def new_song(name, genre)
 end
 
 def songs
-  song.all
+  song.all.select do |playlist|
+    
 end
 end
