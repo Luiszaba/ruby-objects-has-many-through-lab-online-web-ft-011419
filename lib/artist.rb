@@ -12,21 +12,3 @@ end
 def self.all
   @@all
 end
-
-def new_song(name, genre)
-  Song.new(name, self, genre)
-end
-
-def songs
-  Song.all.select do |playlist|
-    playlist.artist == self
-end
-
-def genres
-  songs.map do |genres|
-    genres.song
-    genres
-end
-end
-end
-end
