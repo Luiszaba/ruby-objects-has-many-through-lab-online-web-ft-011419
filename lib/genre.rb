@@ -13,9 +13,9 @@ class Genre
     @all
   end
   
-  def songs(song)
+  def songs
     song.map do |songs|
-      if songs.genre == genre
+      if songs.genre == self
         songs
       end
     end
