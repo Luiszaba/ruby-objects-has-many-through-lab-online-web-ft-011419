@@ -23,4 +23,3 @@ class Genre
     self.all.select {|a_songs| a_songs.artist == artist}
   end
 end
-end
