@@ -17,7 +17,6 @@ end
 def new_song
   name = Song.new
   genre = Genre.new
-  @@all << self
 end
 
 def songs
