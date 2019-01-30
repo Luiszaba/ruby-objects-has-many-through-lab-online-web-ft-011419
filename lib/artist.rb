@@ -1,6 +1,6 @@
 class Artist
   
-  attr_accessor :name
+  attr_accessor :name, :artist, :genre
   
 @@all = []
 
@@ -11,4 +11,5 @@ end
 
 def self.all
   @@all
+end
 end
