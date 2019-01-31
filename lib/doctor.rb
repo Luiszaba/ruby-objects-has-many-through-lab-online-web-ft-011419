@@ -1,8 +1,8 @@
 class Doctor
 
-@@all = []
-
 attr_accessor :name, :doctors
+
+
 
 def initialize(name)
   @name = name
