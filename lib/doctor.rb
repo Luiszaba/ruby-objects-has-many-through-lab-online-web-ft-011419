@@ -9,7 +9,8 @@ def initialize(name)
   @@all << self
 end
 
-def 
+def new_appointment
+  Appointment.new(date, self, )
 
 def self.all
   @all
