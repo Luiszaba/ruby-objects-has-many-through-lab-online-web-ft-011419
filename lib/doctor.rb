@@ -10,7 +10,8 @@ def initialize(name)
 end
 
 def new_appointment
-  Appointment.new(date, self, )
+  Appointment.new(patient, self, doctor)
+end
 
 def self.all
   @all
