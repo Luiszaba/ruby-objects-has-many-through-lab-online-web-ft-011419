@@ -11,7 +11,6 @@ end
 
 def new_appointment(patient, date)
   Appointment.new(patient, self, date)
-  @@all << self
 end
 
 def self.all
