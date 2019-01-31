@@ -6,7 +6,6 @@ attr_accessor :name, :doctors
 
 def initialize(name)
   @name = name
-  @doctors = doctors
   @@all << self
 end
 
