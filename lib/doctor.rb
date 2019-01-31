@@ -5,9 +5,7 @@ attr_accessor :name
 @@all = []
 
 def initialize(name)
-  doctors = []
   @name = name
-  doctors << name
 end
 
 def new_appointment(patient, date)
