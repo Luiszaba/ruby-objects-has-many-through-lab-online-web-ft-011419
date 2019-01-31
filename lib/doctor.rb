@@ -6,7 +6,6 @@ attr_accessor :name
 
 def initialize(name)
   @name = name
-  @doctors << self
 end
 
 def new_appointment(patient, date)
